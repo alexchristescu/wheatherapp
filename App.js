@@ -62,9 +62,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      {/* <Text style={styles.paragraph}>{text}</Text> */}
+      <Text style={styles.paragraph}>{text}</Text>
       <Image source={require("./sun.png")} />
-      <Text style={styles.paragraph}>{textWeatherLocation}</Text>
+      {/* <Text style={styles.paragraph}>{textWeatherLocation}</Text> */}
       <Text style={styles.paragraph}>{textWeatherTemp}</Text>
     </View>
   );
